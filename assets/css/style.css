@@ -57,7 +57,9 @@ h1{
 }
 
 
-
+.card{
+    margin-top: 20px;
+}
 
 #contact h1{
     color: white;

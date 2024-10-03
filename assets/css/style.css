@@ -17,13 +17,14 @@ body{
 }
 
 #greeting{
-    padding-top: 30px;
+    padding-top: 120px;
 }
 
 h1{
     font-family: var(--secondary-font-family);
     color: var(--primary-blue-color);
 }
+
 .navbar-background-color{
     background-color: var(--primary-blue-color);
 }

@@ -1,4 +1,25 @@
-.carousel .carousel {
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --primary-pink-color:#f09abf;
+    --primary-blue-color:#91d9ff;
+    --primary-brown-color:#f2cda1;
+
+    --primary-font-family:"Raleway", sans-serif;
+    --secondary-font-family:"Lobster", sans-serif;
+}
+
+body{
+    font-family: var(--primary-font-family);
+}
+
+h1{
+    font-family: var(--secondary-font-family);
+}
+
+.carousel .carousel-item {
     max-height: 470px;
     min-width: auto;
   }

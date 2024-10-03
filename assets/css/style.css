@@ -49,7 +49,22 @@ h1{
     color: var(--primary-blue-color);
 }
 
+.open-time{
+    padding: 20px;
+    background-color: var(--primary-blue-color);
+    color: white;
+}
 
-/* #icecream img{
-    height: 400px;
-} */
+
+
+
+#contact h1{
+    color: white;
+}
+
+
+
+.table>:not(caption)>*>*{
+    background-color: transparent;
+    color: white;
+}

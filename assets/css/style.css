@@ -16,6 +16,10 @@ body{
     font-family: var(--primary-font-family);
 }
 
+#greeting{
+    padding: 80px;
+}
+
 h1{
     font-family: var(--secondary-font-family);
     color: var(--primary-blue-color);

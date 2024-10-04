@@ -92,6 +92,11 @@ h1{
     color: var(--primary-blue-color);
 }
 
+#open-time{
+    background-color: var(--primary-blue-color);
+}
+
+
 #contact h1{
     color: white;
 }

@@ -110,13 +110,35 @@ h1{
 
 
 /* Login Page */
-#login{
+.login{
     margin-top: 120px;  
+
 }
+
+
+.btn-primary{
+    background-color: var(--primary-blue-color);
+    color: white;
+
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: var(--primary-blue-color);
+}
+
+.login a{
+    color: var(--primary-blue-color);
+}
+
+
 #signup-form{
     margin-top: 120px;  
 }
 
+#signup-form .btn{
+    margin-top: 32px;
+}
 
 @media screen and (min-width=760px) {
     #icecream{
@@ -130,8 +152,9 @@ h1{
     #signup-form button{
         padding-top: 44px;
     }
-    #login-image{
-        width: 350px;
-        height: 350px;
+    footer{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
     }
 }

@@ -12,6 +12,14 @@
 }
 
 
+table{
+    width: 100%;
+}
+table img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
 body{
     font-family: var(--primary-font-family);
 }
@@ -60,7 +68,7 @@ h1{
     color: var(--primary-blue-color);
 }
 
-.open-time{
+#open-time{
     padding: 20px;
     background-color: var(--primary-blue-color);
     color: white;
@@ -69,6 +77,19 @@ h1{
 
 .card{
     margin-top: 20px;
+}
+
+.card img{
+    height: 334px;
+}
+
+
+.card p{
+    height: 48px;
+}
+
+.card-title{
+    color: var(--primary-blue-color);
 }
 
 #contact h1{
@@ -85,4 +106,9 @@ h1{
     #icecream{
         margin-top: 30px;
     }  
+    #address{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

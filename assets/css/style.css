@@ -41,7 +41,17 @@ h1{
     background-color: red;
   }
 
+.carousel-control-prev-icon{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+.carousel-control-next-icon{
+    position: absolute;
+    right:10%;
+    top: 50%;
 
+}
 #logo{
     width: 70px;
     height: 70px;

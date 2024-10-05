@@ -116,7 +116,10 @@ h1{
     margin-top: 120px;  
 
 }
-
+#login img{
+    width: 250px;
+    height: 300px;
+}
 
 .btn-primary{
     background-color: var(--primary-blue-color);

@@ -34,7 +34,7 @@ body{
     padding-top: 120px;
 }
 
-h1{
+h1,h2{
     font-family: var(--secondary-font-family);
     color: var(--primary-blue-color);
 }

@@ -91,7 +91,9 @@ h1{
 .card-title{
     color: var(--primary-blue-color);
 }
-
+.card-footer{
+    background-color: white;
+}
 #open-time{
     background-color: var(--primary-blue-color);
 }

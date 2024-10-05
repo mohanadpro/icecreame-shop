@@ -112,7 +112,7 @@ h1{
 
 
 /* Login Page */
-.login{
+#login{
     margin-top: 120px;  
 
 }
@@ -129,7 +129,7 @@ h1{
     color: var(--primary-blue-color);
 }
 
-.login a{
+#login a{
     color: var(--primary-blue-color);
 }
 

@@ -104,7 +104,41 @@ h1,h2{
     background-color: var(--primary-blue-color);
 }
 
+canvas{
+    border: 2px solid black;
+    width: 100%;    
+}
 
+.my-card img{
+    width: 75%;
+    height: 100px;
+}
+
+#make-your-icecream{
+    height: 430px;
+    margin-bottom: 150px;
+}
+#volum-size{
+    width: 100%;
+}
+#ice-cream-flavors{
+    height: 400px;
+    overflow: auto;
+}
+#ice-cream-flavors .my-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-card h5{
+    font-size: 15px;
+}
+.my-card .btn-primary{
+    background-color: white;
+    color: var(--primary-blue-color);
+    border: 1px solid var(--primary-blue-color);
+}
 #contact h1{
     color: white;
 }

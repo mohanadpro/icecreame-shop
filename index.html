@@ -174,14 +174,14 @@
           <h1 class="text-center">Choose Your Ice Cream Flavors</h1>
             <div class="row">          
             <div class="col-12 col-md-6">
-              <div id="volum-size" class="container d-flex justify-content-space-around mb-3">
+              <div id="volum-size" class="container d-flex justify-content-center mb-3">
                 <div>
                   <label for="ice-cream-volum">1 Kilo</label>
-                  <input type="radio" value="onekilo" name="volum" id="ice-cream-one-kilo">
+                  <input type="radio" value="onekilo" name="volum" id="ice-cream-one-kilo" onclick="addCanvac()">
                 </div>
                 <div>
                   <label for="ice-cream-volum">1/2 Kilo</label>
-                  <input type="radio" value="halfkilo" name="volum" id="ice-cream-half-kilo">
+                  <input type="radio" value="halfkilo" name="volum" id="ice-cream-half-kilo" onclick="removeCanvac()">
                 </div>
               </div>
               <div class="container">
@@ -664,6 +664,13 @@
 
       }
       }
+    }
+
+    function removeCanvac(){
+      document.getElementById("myCanvas1").style.visibility="hidden";
+    }
+    function addCanvac(){
+      document.getElementById("myCanvas1").style.visibility="visible";
     }
     </script>
 </body>

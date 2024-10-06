@@ -106,7 +106,8 @@ h1,h2{
 
 canvas{
     border: 2px solid black;
-    width: 100%;    
+    width: 100%;   
+    border: 2px solid var(--primary-blue-color); 
 }
 
 .my-card img{
@@ -114,17 +115,17 @@ canvas{
     height: 100px;
 }
 
-#make-your-icecream{
-    height: 430px;
-    margin-bottom: 150px;
+
+#ice-cream-flavors{
+    margin-top: 20px;
 }
+
+
+
 #volum-size{
     width: 100%;
 }
-#ice-cream-flavors{
-    height: 400px;
-    overflow: auto;
-}
+
 #ice-cream-flavors .my-card{
     display: flex;
     flex-direction: column;
@@ -185,7 +186,9 @@ canvas{
     margin-top: 32px;
 }
 
-@media screen and (min-width=760px) {
+
+
+@media screen and (min-width:768px) {
     #icecream{
         margin-top: 30px;
     }  
@@ -197,9 +200,25 @@ canvas{
     #signup-form button{
         padding-top: 44px;
     }
-    footer{
-        position: absolute;
-        width: 100%;
-        bottom: 0;
+
+    #make-your-icecream{
+        height: 300px;
+        margin-bottom: 150px;
     }
+    #ice-cream-flavors{
+        height: 250px;
+        overflow: auto;
+    }
+
+}
+@media screen and (min-width:992px) {
+    #make-your-icecream{
+        height: 430px;
+        margin-bottom: 150px;
+    }
+    #ice-cream-flavors{
+        height: 400px;
+        overflow: auto;
+    }
+    
 }

@@ -174,7 +174,7 @@
           <h1 class="text-center">Choose Your Ice Cream Flavors</h1>
             <div class="row">          
             <div class="col-12 col-md-6">
-              <div id="volum-size" class="d-flex justify-content-space-around">
+              <div id="volum-size" class="container d-flex justify-content-space-around mb-3">
                 <div>
                   <label for="ice-cream-volum">1 Kilo</label>
                   <input type="radio" value="onekilo" name="volum" id="ice-cream-one-kilo">
@@ -184,7 +184,10 @@
                   <input type="radio" value="halfkilo" name="volum" id="ice-cream-half-kilo">
                 </div>
               </div>
-               <canvas width="400px" height="200px" id="myCanvas"></canvas> 
+              <div class="container">
+               <canvas width="400px" height="100px" id="myCanvas"></canvas> 
+               <canvas width="400px" height="100px" id="myCanvas1"></canvas> 
+              </div>
             </div>
               <div class="col-12 col-md-6">
                 <div class="row" id="ice-cream-flavors">
@@ -193,7 +196,7 @@
                   <img src="assets/images/chocolate_container.jpg" class="card-img-top" alt="Chocolate Container">
                   <div class="card-body">
                     <h5 class="card-title">Chocolate</h5>
-                    <button name="add-icecream" class="btn btn-primary my-2">Add</button>
+                    <button name="add-icecream" class="btn btn-primary my-2" onclick="AddIceCreamFlavor('#AA7B5E')">Add</button>
                   </div>
                 </div>
               </div>
@@ -202,7 +205,7 @@
                   <img src="assets/images/lemon_container.jpg" class="card-img-top" alt="Lemon Container">
                   <div class="card-body">
                     <h5 class="card-title">Lemon</h5>   
-                    <button name="add-icecream" class="btn btn-primary my-2">Add</button>
+                    <button name="add-icecream" class="btn btn-primary my-2" onclick="AddIceCreamFlavor('#E1ED71')">Add</button>
 
                   </div>
                 </div>
@@ -211,8 +214,8 @@
                 <div class="my-card">
                   <img src="assets/images/strawberry_container.jpg" class="card-img-top" alt="Strawberry Container">
                   <div class="card-body">
-                    <h5 class="card-title">Strawberry</h5>     
-                    <button name="add-icecream" class="btn btn-primary my-2">Add</button>
+                    <h5 class="card-title">Strawberry</h5>      
+                    <button name="add-icecream" class="btn btn-primary my-2"  onclick="AddIceCreamFlavor('#FDB6BE')">Add</button>
 
                   </div>
                 </div>
@@ -222,7 +225,7 @@
                   <img src="assets/images/mango_container.jpg" class="card-img-top" alt="Mongo Container">
                   <div class="card-body">
                     <h5 class="card-title">Mongo</h5>  
-                    <button name="add-icecream" class="btn btn-primary my-2">Add</button>
+                    <button name="add-icecream" class="btn btn-primary my-2" onclick="AddIceCreamFlavor('#FCDAA1')">Add</button>
 
                   </div>
                 </div>
@@ -232,7 +235,7 @@
                   <img src="assets/images/banana_container.jpg" class="card-img-top" alt="Banana Container">
                   <div class="card-body">
                     <h5 class="card-title">Banana</h5> 
-                    <button name="add-icecream" class="btn btn-primary my-2">Add</button>
+                    <button name="add-icecream" class="btn btn-primary my-2" onclick="AddIceCreamFlavor('#FCF1D3')">Add</button>
 
                   </div>
                 </div>
@@ -242,7 +245,7 @@
                   <img src="assets/images/Blueberry_containerjpg.jpg" class="card-img-top" alt="Blueberry Container">
                   <div class="card-body">
                     <h5 class="card-title">Blueberry</h5>     
-                    <button name="add-icecream" class="btn btn-primary my-2">Add</button>
+                    <button name="add-icecream" class="btn btn-primary my-2" onclick="AddIceCreamFlavor('#CCCAE7')">Add</button>
 
                   </div>
                 </div>
@@ -252,7 +255,7 @@
                   <img src="assets/images/vanilla_container.jpg" class="card-img-top" alt="Vanilla">
                   <div class="card-body">
                     <h5 class="card-title">Vanilla</h5>   
-                    <button name="add-icecream" class="btn btn-primary my-2">Add</button>
+                    <button name="add-icecream" class="btn btn-primary my-2" onclick="AddIceCreamFlavor('#EFE8DF')">Add</button>
 
                   </div>
                 </div>
@@ -261,8 +264,8 @@
                 <div class="my-card">
                   <img src="assets/images/pineaple_container.jpg" class="card-img-top" alt="Pineaple Container">
                   <div class="card-body">
-                    <h5 class="card-title">Pineaple Container</h5>    
-                    <button name="add-icecream" class="btn btn-primary my-2">Add</button>
+                    <h5 class="card-title">Pineapple </h5>    
+                    <button name="add-icecream" class="btn btn-primary my-2" onclick="AddIceCreamFlavor('#Fee332')">Add</button>
 
                   </div>
                 </div>
@@ -272,7 +275,7 @@
                   <img src="assets/images/rocky_road_ice_cream_container.jpg" class="card-img-top" alt="Rocky Road Container">
                   <div class="card-body">
                     <h5 class="card-title">Rocky Road</h5>  
-                    <button name="add-icecream" class="btn btn-primary my-2">Add</button>
+                    <button name="add-icecream" class="btn btn-primary my-2" onclick="AddIceCreamFlavor('#C0A58E')">Add</button>
 
                   </div>
                 </div>
@@ -591,58 +594,77 @@
     crossorigin="anonymous"></script>
 
     <script type="text/javascript">
+
       const canvas = document.getElementById("myCanvas");
       const ctx = canvas.getContext("2d");
-  
 
+      const canvas1 = document.getElementById("myCanvas1");
+      const ctx1 = canvas1.getContext("2d");
+      var x=0;
+      var y=0;
+      var r=40;
+      var count=0;
 
-      function drawRedCircle(){
-        ctx.strokeStyle="red";
-        ctx.beginPath();
-        ctx.arc(50, 50, 20, 0, 2 * Math.PI);
-        ctx.stroke();
+      function AddIceCreamFlavor(color){
+        if(x==0 &&y==0)
+        {
+          x=50;
+          y=50;
+        }
+        else
+        {
+        if(y==50)
+        {
+          if(x==350)
+            {
+              y=150;
+              x=50;
+            }
+            else
+            {
+              x+=100;
+            }
+        }
+        else
+        {
+          if(x<350)
+          {
+            x+=100;
+          }
+        }
+        }
+        drawCircle(x,y,color);
+       
       }
 
-  
-      ctx.strokeStyle="blue";
-      ctx.beginPath();
-      ctx.arc(150, 50, 20, 0, 2 * Math.PI);
-      ctx.fillStyle = "blue";
-      ctx.fill();
-      ctx.stroke();
+      function drawCircle(x,y,color){
 
-      ctx.strokeStyle="green";
-      ctx.beginPath();
-      ctx.arc(250, 50, 40, 0, 2 * Math.PI);
-      ctx.stroke();
+      if(count<8)
+      {
+        if(y==0 || y==50)
+      {
+        ctx.beginPath();
+        ctx.strokeStyle=color;
+        ctx.fillStyle = color;
+        ctx.arc(x, y, r, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.stroke();
+        count++;
+      }
+      else
+      {
+        ctx1.beginPath();
+        ctx1.strokeStyle=color;
+        ctx1.fillStyle = color;
+        y=50;
+        ctx1.arc(x, y, r, 0, 2 * Math.PI);
+        ctx1.fill();
+        ctx1.stroke();
+        count++;
 
-      ctx.strokeStyle="yellow";
-      ctx.beginPath();
-      ctx.arc(350, 50, 40, 0, 2 * Math.PI);
-      ctx.stroke();
-
-
-      ctx.strokeStyle="red";
-      ctx.beginPath();
-      ctx.arc(50, 150, 40, 0, 2 * Math.PI);
-      ctx.stroke();
-  
-      ctx.strokeStyle="blue";
-      ctx.beginPath();
-      ctx.arc(150, 150, 40, 0, 2 * Math.PI);
-      ctx.stroke();
-
-      ctx.strokeStyle="green";
-      ctx.beginPath();
-      ctx.arc(250, 150, 40, 0, 2 * Math.PI);
-      ctx.stroke();
-
-      ctx.strokeStyle="yellow";
-      ctx.beginPath();
-      ctx.arc(350, 150, 40, 0, 2 * Math.PI);
-      ctx.stroke();
+      }
+      }
+    }
     </script>
-
 </body>
-
 </html>

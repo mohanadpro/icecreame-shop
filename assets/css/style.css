@@ -70,7 +70,7 @@ h1,h2{
     height: 70px;
 }
 
-#greeting strong{
+#greeting span{
     color: var(--primary-blue-color);
 }
 

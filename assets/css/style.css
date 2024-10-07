@@ -164,14 +164,13 @@ canvas{
 }
 
 .btn-primary{
-    background-color: var(--primary-blue-color);
-    color: white;
-
+    background-color: white;
+    color: var(--primary-blue-color);
 }
 
 .btn-primary:hover{
-    background-color: white;
-    color: var(--primary-blue-color);
+    background-color: var(--primary-blue-color);
+    color: white;
 }
 
 #login a{

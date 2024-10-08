@@ -11,6 +11,9 @@
     --secondary-font-family:"Lobster", sans-serif;
 }
 
+.padding-section{
+    padding-top: 6rem;
+}
 
 table{
     width: 100%;

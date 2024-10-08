@@ -15,6 +15,10 @@
     padding-top: 4rem;
 }
 
+nav a{
+    font-weight: bolder;   
+}
+
 table{
     width: 100%;
 }
@@ -144,6 +148,7 @@ canvas{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 .my-card h5{
     font-size: 15px;

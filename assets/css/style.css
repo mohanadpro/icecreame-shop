@@ -103,6 +103,15 @@ h1,h2{
 .card-footer{
     background-color: white;
 }
+
+
+
+.ice-cream-flavor-card-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 #open-time{
     background-color: var(--primary-blue-color);
 }

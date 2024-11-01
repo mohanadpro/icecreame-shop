@@ -10,13 +10,13 @@
 # Live production: 
 * https://mohanadpro.github.io/icecreame-shop/
 
-# insall project :
+# To insall the project :
 * you have to clone the project using git clone https://mohanadpro.github.io/icecreame-shop/
 
-# used technologies:  
+# Used technologies:  
 * HTML - CSS - Bootstrap
 
-# developed by Mohanad Dahi
+# Developed by Mohanad Dahi
 
-# helped Websites:
+# Helped websites:
 * Pexel.com - pixabay.com - https://www.freepik.com/

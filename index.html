@@ -19,6 +19,12 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
+  <!-- In these nav bar you can choose the wanted section 
+  Ice cream section: to buy ice cream
+  Cake section: to buy cake
+  Contact section: to watch our contact data like mobile phone and address
+  Login: in this page you can log in or if you don't have an account you can create an account 
+  -->
   <header id="header-section">
     <nav class="navbar navbar-background-color navbar-expand-sm fixed-top" data-bs-theme="dark">
       <div class="container">
@@ -49,12 +55,11 @@
     </nav>
 
 
+    <!-- In this section i explained what the shop offer and a carousel that shows images for people they eat in the shop -->
     <section id="greeting" class="container">
-      <!-- <h1 class="d-none">Enjoy Our Sweets</h1> -->
       <div class="row">
         <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
       <h2 class="text-center">Enjoy Our Sweets</h2>
-
           <p>Tast the happiness and enjoy 30 years of experience in making ice cream and cake <br>
             Every flavor takes you to anothor world in addition to the mix between the flavors does a wonderful Tast.
             <br>
@@ -104,9 +109,14 @@
 
   <main>
 
+
     <section id="icecream" class="padding-section">
       <h1 class="text-center">ICE CREAM <i class="fa-solid fa-ice-cream"></i></h1>
       <div class="container">
+            <!-- ice cream section where the user can buy ice 
+            every ice cream is represented as a card that has an image under that ice cream name and the description
+             
+            -->
         <div class="row">
           <div class="col-12 col-md-6 col-lg-3">
             <div class="card">
@@ -118,6 +128,7 @@
                 <button class="btn" name="minus" aria-label="Decrease ice cream"><i class="fa-solid fa-minus"></i></button>
               </div>
               <div class="card-footer d-flex justify-content-center">
+                <!-- This button will toggel a modal that shows extra sauce -->
                 <button class="btn btn-primary" style="width: 40%;" data-bs-toggle="modal"
                   data-bs-target="#iceCreamModal"> Extra</button>
               </div>

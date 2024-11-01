@@ -7,9 +7,16 @@
 * Sign up page : you have to register with your personal data city - street zip code and these data would be used for the delivery purpose 
 * Log in page : you can log in with your email and password as a user
 
+# Live production: 
+* https://mohanadpro.github.io/icecreame-shop/
 
-# used technologies: HTML - CSS - Bootstrap
+# insall project :
+* you have to clone the project using git clone https://mohanadpro.github.io/icecreame-shop/
+
+# used technologies:  
+* HTML - CSS - Bootstrap
 
 # developed by Mohanad Dahi
 
-# helped Websites : Pexel.com - pixabay.com - https://www.freepik.com/
+# helped Websites:
+* Pexel.com - pixabay.com - https://www.freepik.com/

@@ -183,6 +183,7 @@
         </div>
       </div>
 
+
        <div id="make-your-icecream" class="padding-section">
           <div class="container">
           <h1 class="text-center">Choose Your Ice Cream Flavors</h1>
@@ -393,7 +394,10 @@
     </section>
   </main>
 
-  <!-- Ice Cream Modal -->
+  <!-- Ice Cream Modal 
+    This is the modal that wil be shown after the user press on extra 
+    it shows suace image , name , price and checkbox that is    
+  -->
   <div class="modal" tabindex="-1" id="iceCreamModal">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -586,7 +590,15 @@
               Ortolfstraße 190<br>
               12524, Berlin<br>
               Germany
+              
             </address>
+
+            <!-- Social links  -->
+            <div class="d-flex justify-content-between" style="width: 30%;">
+              <a href="http://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f text-light"></i></a>
+              <a href="http://twitter.com"  target="_blank"><i class="fa-brands fa-twitter text-light"></i></a>
+              <a href="http://instgram.com"  target="_blank"><i class="fa-brands fa-instagram text-light"></i></a>              
+            </div>
           </div>
         </div>
         <div class="col-12 col-md-6">
@@ -629,7 +641,7 @@
 
     <script>
 
-
+// This function is to toggle navbar in the small device
 document.querySelectorAll(".navbar-collapse .nav-link")
         .forEach((link) => {
             link.addEventListener("click", function (e) {
@@ -649,6 +661,10 @@ document.querySelectorAll(".navbar-collapse .nav-link")
         });
 
 
+      // javascript function to add balls to the canvas
+      // if the user chosed 1 kilo, the balls whould be added to the two canvases 
+      // if the user chosed 1/2 kilo the balls woulb be just added to one canvas 
+      
       const canvas = document.getElementById("myCanvas");
       const ctx = canvas.getContext("2d");
 
@@ -691,6 +707,7 @@ document.querySelectorAll(".navbar-collapse .nav-link")
        
       }
 
+      // Hear is the draw function
       function drawCircle(x,y,color){
 
       if(count<8)
@@ -720,9 +737,12 @@ document.querySelectorAll(".navbar-collapse .nav-link")
       }
     }
 
+    // Hear I delete the canvas if the user chosed 1/2 kilo
     function removeCanvac(){
       document.getElementById("myCanvas1").style.visibility="hidden";
     }
+
+    // Hear I add the canvas if the user chosed 1 kilo
     function addCanvac(){
       document.getElementById("myCanvas1").style.visibility="visible";
     }

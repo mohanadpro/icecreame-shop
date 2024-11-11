@@ -1,3 +1,4 @@
+![CI logo](assets/images/site-on-different-pages.png)
 # icecreame-shop
 
 * Online Shop to buy ice cream and cake

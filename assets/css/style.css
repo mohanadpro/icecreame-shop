@@ -222,9 +222,6 @@ canvas{
         justify-content: center;
         align-items: center;
     }
-    #signup-form button{
-        padding-top: 44px;
-    }
 
     #make-your-icecream{
         height: 300px;

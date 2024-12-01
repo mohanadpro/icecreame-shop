@@ -207,7 +207,9 @@ canvas{
     margin-top: 32px;
 }
 
-
+#carouselExample img{
+    display: block;
+}
 
 @media screen and (min-width:768px) {
     .padding-section{

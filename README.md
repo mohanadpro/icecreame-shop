@@ -11,10 +11,10 @@ Online Shop to buy ice cream and cake, which enable you either buy prepared cake
     * Customer can choose either from a prepared ice cream by pressing on plus button on the specific ice cream
 ![](assets/images/buy-ice-cream.png)
 * Add Sauce
-    * If the customer wants to add sauce, customer presses on extra button
+    * If the customer wants to add sauce, customer presses on extra button a modal will be shown as below
 ![](assets/images/extra-sauce.png)
 * Add Ice cream by weight
-    * Customer can put ice cream ball in the can as it mentioned in the section "prepare your own ice cream" 
+    * Customer can put ice cream ball in the can as the image below
 ![](assets/images/buy-ice-cream-per-weight.png)
 * Add cake
     * Customer can add the cake by pressing on plus button              

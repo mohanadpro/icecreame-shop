@@ -108,14 +108,13 @@ h1,h2{
     background-color: white;
 }
 
-
-
 .ice-cream-flavor-card-body{
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 #open-time{
     background-color: var(--primary-blue-color);
 }
@@ -126,8 +125,9 @@ canvas{
     border: 2px solid var(--primary-blue-color); 
 }
 
-#myCanvas,#myCanvas1{
-    height: 100px;
+.canvas-dimensions{
+    width:500px;
+    height:100px;
 }
 
 .my-card img{
@@ -136,12 +136,9 @@ canvas{
     border-radius: 50%;
 }
 
-
 #ice-cream-flavors{
     margin-top: 20px;
 }
-
-
 
 #volum-size{
     width: 100%;
@@ -212,6 +209,7 @@ canvas{
 }
 
 @media screen and (min-width:768px) {
+
     .padding-section{
         padding-top: 6rem;
     }

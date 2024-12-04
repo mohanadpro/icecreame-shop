@@ -5,26 +5,26 @@ Online Shop to buy ice cream and cake, which enable you either buy prepared cake
 
 # Features
 * Home Page
-    * In order to return to home page customer can press on Logo
-[Logo](assets/images/logo-reamdme.png)
+    * In order to return to home page customer can press on Logo            
+![](assets/images/logo-reamdme.png)
 * Add ice cream
     * Customer can choose either from a prepared ice cream by pressing on plus button on the specific ice cream
-[Add Ice cream](assets/images/buy-ice-cream.png)
+![](assets/images/buy-ice-cream.png)
 * Add Sauce
     * If the customer wants to add sauce, customer presses on extra button
-[Add sauce](assets/images/extra-sauce.png)
+![](assets/images/extra-sauce.png)
 * Add Ice cream by weight
     * Customer can put ice cream ball in the can as it mentioned in the section "prepare your own ice cream" 
-[Add Ice cream by Weight](assets/images/buy-ice-cream-per-weight.png)
+![](assets/images/buy-ice-cream-per-weight.png)
 * Add cake
-    * Customer can add the cake by pressing on plus button
-[Add Cake](assets/images/buy-cake.png)
+    * Customer can add the cake by pressing on plus button              
+![](assets/images/buy-cake.png)
 * Log in page
-    *  Customer can log in using email and password
-[Login in](assets/images/login-reamdme.png)
+    *  Customer can log in using email and password                 
+![](assets/images/login-reamdme.png)
 * Sign up
     *  In order sign up Customer have to register with personal data city - street zip code..., these data would be used for the delivery purpose
-[Sign up](assets/images/sign-up-readme.png)
+![](assets/images/sign-up-readme.png)
 
 
 # Testing

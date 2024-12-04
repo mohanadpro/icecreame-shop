@@ -65,5 +65,12 @@ Online Shop to buy ice cream and cake, which enable you either buy prepared cake
 * You have to clone the project using git clone https://mohanadpro.github.io/icecreame-shop/
 
 # Used technologies:  
-* HTML - CSS - Bootstrap
+# Languages 
+---
+*  HTML - CSS - Bootstrap
+# Tools
+---
+* VSCode was used as the main tool to write and edit code.
+* Git was used for the version control of the website.
+* GitHub was used to host the code of the website.
 

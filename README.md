@@ -29,7 +29,7 @@ Online Shop to buy ice cream and cake, which enable you either buy prepared cake
 
 # Testing
 ---
-# Validator Testing
+### Validator Testing
 ---
 * HTML
     * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
@@ -44,12 +44,12 @@ Online Shop to buy ice cream and cake, which enable you either buy prepared cake
 
 # Credits 
 ---
-# Media
+### Media
 * Images were taken from Pexel.com - pixabay.com - https://www.freepik.com/
 * Favicon is generated using https://realfavicongenerator.net/
 * For icons i used fontawesome library
 
-# Bugs
+### Bugs
 ---
 * no bugs were found
 
@@ -65,10 +65,10 @@ Online Shop to buy ice cream and cake, which enable you either buy prepared cake
 * You have to clone the project using git clone https://mohanadpro.github.io/icecreame-shop/
 
 # Used technologies:  
-# Programming languages 
+### Programming languages 
 ---
 *  HTML - CSS - Bootstrap
-# Tools
+### Tools
 ---
 * VSCode was used as the main tool to write and edit code.
 * Git was used for the version control of the website.

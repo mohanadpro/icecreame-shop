@@ -56,10 +56,7 @@ h1,h2{
 .navbar a:hover{
     color: var(--primary-brown-color);
 }
-.carousel .carousel-item img{
-    height: 420px;
-    min-width: auto;
-  }
+
 
 .carousel-control-prev-icon{
     position: absolute;
@@ -204,9 +201,7 @@ canvas{
     margin-top: 32px;
 }
 
-#carouselExample img{
-    display: block;
-}
+.carousel-item > img { background-size: cover}
 
 @media screen and (min-width:768px) {
 
@@ -242,5 +237,8 @@ canvas{
         height: 400px;
         overflow: auto;
     }
-    
+    .carousel .carousel-item img{
+        height: 420px;
+        min-width: auto;
+      }
 }

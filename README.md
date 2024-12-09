@@ -3,7 +3,7 @@
 ---
 Online Shop to buy ice cream and cake, which enable you either buy prepared cake or icecream and choose the suace on them or to buy icecream by weight.
 
-# Features
+## Features
 * Home Page
     * In order to return to home page customer can press on Logo            
 ![](assets/images/logo-reamdme.png)
@@ -27,7 +27,7 @@ Online Shop to buy ice cream and cake, which enable you either buy prepared cake
 ![](assets/images/sign-up-readme.png)
 
 
-# Testing
+## Testing
 ---
 ### Validator Testing
 ---
@@ -42,7 +42,7 @@ Online Shop to buy ice cream and cake, which enable you either buy prepared cake
         * Largest function has 17 statements in it, while the median is 3.5.
         * The most complex function has a cyclomatic complexity value of 6 while the median is 1.5.
 
-# Credits 
+## Credits 
 ---
 ### Media
 * Images were taken from Pexel.com - pixabay.com - https://www.freepik.com/
@@ -53,7 +53,7 @@ Online Shop to buy ice cream and cake, which enable you either buy prepared cake
 ---
 * no bugs were found
 
-# Deployment
+## Deployment
 ---
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
     * In the GitHub repository, navigate to the Settings tab
@@ -61,10 +61,10 @@ Online Shop to buy ice cream and cake, which enable you either buy prepared cake
     * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
     * The live link can be found here - [live production](https://mohanadpro.github.io/icecreame-shop/)
 
-# To clone the project :
+## To clone the project :
 * You have to clone the project using git clone https://mohanadpro.github.io/icecreame-shop/
 
-# Used technologies:  
+## Used technologies:  
 ### Programming languages 
 ---
 *  HTML - CSS - Bootstrap
